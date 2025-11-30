@@ -35,12 +35,12 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+        <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Education & Work</h3>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
+            <table className="table">
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
