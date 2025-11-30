@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Favicon & app icons -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- PWA manifest (optional but good for mobile/home-screen) -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Mobile viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Mobile web app capabilities -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="David Gadyan Portfolio" />
+
+    <!-- Basic SEO -->
+    <title>David Gadyan – Algorithmic Trader & Data Scientist</title>
+    <meta
+      name="description"
+      content="I’m David Gadyan, an algorithmic trader and data scientist specializing in AI-powered crypto trading strategies, quantitative research, and end-to-end AI solutions."
+    />
+    <meta name="author" content="David Gadyan" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- SEO keywords -->
+    <meta
+      name="keywords"
+      content="David Gadyan, algorithmic trader, AI crypto trading, crypto trading strategies, quantitative trading, data scientist, machine learning, deep learning, generative AI, Barcelona, Spain"
+    />
+
+    <!-- GEO tags (for local SEO + LLM context) -->
+    <meta name="geo.region" content="ES-B" />
+    <meta name="geo.position" content="41.3874;2.1686" />
+    <meta name="ICBM" content="41.3874, 2.1686" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://davitgadyan.github.io/portfolio_app/" />
+
+    <!-- Open Graph (basic) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="David Gadyan – Algorithmic Trader & Data Scientist"
+    />
+    <meta
+      property="og:description"
+      content="AI-powered crypto trading strategies and data science solutions by David Gadyan."
+    />
+    <meta
+      property="og:url"
+      content="https://davitgadyan.github.io/portfolio_app/"
+    />
+
+    <!-- LLM-friendly structured data (Person) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "David Gadyan",
+        "jobTitle": [
+          "Algorithmic Trader",
+          "Data Scientist",
+          "Generative AI Engineer"
+        ],
+        "description": "Algorithmic trader and data scientist specializing in AI-powered crypto trading strategies and quantitative research.",
+        "url": "https://davitgadyan.github.io/portfolio_app/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Barcelona",
+          "addressCountry": "Spain"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.3874,
+          "longitude": 2.1686
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FG3D69C4C4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FG3D69C4C4", {
+        send_page_view: false,
+      });
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
