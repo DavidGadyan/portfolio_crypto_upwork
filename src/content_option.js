@@ -54,7 +54,7 @@ const dataabout = {
   aboutme: `
     Welcome! 
     
-    I'm David, a seasoned Data Scientist with over 7 years of experience and a track record of 170+ successful projects in the Data Science field and another 7 years in the Finance sector. My expertise lies in transforming complex business challenges into innovative solutions powered by AI and my creative problem-solving skills.
+    I'm David, a seasoned Data Scientist with over 8 years of experience and a track record of 180+ successful projects in the Data Science field and another 8 years in the Finance sector. My expertise lies in transforming complex business challenges into innovative solutions powered by AI and my creative problem-solving skills.
 
     A major part of my services is enhancing crypto trading strategies for high-probability setups using AI.
 
